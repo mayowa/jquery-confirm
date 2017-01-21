@@ -1054,13 +1054,13 @@ var jconfirm, Jconfirm;
         closeIcon: null,
         closeIconClass: false,
         watchInterval: 100,
-        columnClass: 'col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1',
+        columnClass: 'col-md-4 col-sm-6 col-10',
         boxWidth: '50%',
         useBootstrap: true,
         bootstrapClasses: {
             container: 'container',
             containerFluid: 'container-fluid',
-            row: 'row',
+            row: 'row justify-content-center',
         },
         onContentReady: function () {
 
